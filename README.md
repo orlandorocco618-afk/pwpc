@@ -1,5 +1,9 @@
 # pwpc — idle password lock for Windows
 
+**Install it, choose a password and a timeout, done.** No accounts, no group policies,
+no settings buried in Windows menus, no dependencies: one Python file.
+It covers every monitor, it's easy to use and easy to maintain.
+
 pwpc locks your PC behind a password after a period of inactivity.
 When nobody touches the mouse or keyboard for the time you chose, a full-screen,
 always-on-top black overlay covers **every connected monitor** and stays there
