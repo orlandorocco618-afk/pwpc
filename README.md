@@ -8,6 +8,8 @@ until the right password is typed.
 I built it because the Windows lock screen didn't fit how I use my PC: I wanted
 my own password, my own timeout, and a lock that covers both of my monitors.
 
+![pwpc setup window](docs/setup.png)
+
 ## Features
 
 - **First-run setup**: the first time you open it, pwpc asks you to choose the
@@ -23,7 +25,12 @@ my own password, my own timeout, and a lock that covers both of my monitors.
   settings within a few seconds, no restart needed.
 - **No dependencies**: pure Python standard library (tkinter + ctypes).
 
-## Requirements
+## Download
+
+Grab `pwpc.exe` from the [Releases](../../releases) page: no Python needed, double-click it
+and the setup window opens. Put a shortcut to it in `shell:startup` to run it at every sign-in.
+
+## Requirements (to run from source)
 
 - Windows 10/11
 - Python 3.10+ (with tkinter, included in the standard installer)
